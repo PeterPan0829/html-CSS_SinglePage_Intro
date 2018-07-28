@@ -1,0 +1,417 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* both（清除兩邊浮動區塊）, 這裡參考了 clearfix 的方法 http://www.wibibi.com/info.php?tid=168 */
+
+.clearfix {
+  clear: both;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+/******************************* header */
+
+/************************* social-link */
+
+.header .social-link {
+  background: #f6f6f6;
+  height: 30px;
+  padding: 5px 0;
+}
+
+/* ul */
+
+.header .social {
+  float: right;
+}
+
+.social li {
+  float: left;
+  border-right: 2px solid #ccc;
+  padding: 0px 5px;
+}
+
+.social li:last-child {
+  border: none;
+}
+
+.social li a {
+  text-decoration: none;
+  padding: 5px;
+  font-size: 18px;
+}
+
+#fb-fan-page {
+  color: #4460a0;
+}
+
+#fb-fan-page:hover {
+  color: #6480c0;
+}
+
+#twitter-fan-page {
+  color: #0ac;
+}
+
+#twitter-fan-page:hover {
+  color: #2cf;
+}
+
+/************************* social-link */
+
+/****************************** navbar */
+
+.navbar {
+  padding: 10px 0px 10px 20px;
+  height: 56px;
+}
+
+.navbar .logo {
+  float: left;
+  background: url(../img/header/logo.png);
+  display: block;
+  width: 161px;
+  height: 27px;
+  text-indent: 101%;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+/* ul */
+
+.menu {
+  float: right;
+}
+
+.menu li {
+  float: left;
+  padding: 0px 20px;
+}
+
+.menu li a {
+  text-decoration: none;
+  padding: 5px;
+  font-size: 18px;
+  line-height: 36px;
+  padding-bottom: 14px;
+  color: rgb(102, 171, 228);
+}
+
+.menu li a:hover {
+  border-bottom: 5px solid rgb(102, 171, 228);
+}
+
+/****************************** navbar */
+
+/******************************* header */
+
+/****************************** banner */
+
+.banner {
+  padding-top: 95px;
+  background: url(../img/banner/bg.png);
+  width: 1000px;
+  height: 346px;
+  margin-bottom: 40px;
+}
+
+.banner .slogan {
+  padding: 35px 20px;
+  color: white;
+  font-size: 40px;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+/****************************** banner */
+
+/********************************* intro */
+
+.intro {
+  padding-left: 20px;
+  margin-bottom: 40px;
+}
+
+.intro .section {
+  float: left;
+  width: 300px;
+  height: 320px;
+  margin-right: 20px;
+  padding: 18px;
+  box-shadow: 1px 1px 10px gray;
+  text-align: justify;
+  font-size: 16px;
+}
+
+.intro .section .image {
+  text-align: center;
+  height: 140px;
+  line-height: 200px;
+  /* 不知道為什麼 line-hight 要下 200px 圖片才有置中的感覺，下 140px 沒用 */
+}
+
+.intro .section h2 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.intro .section ul {
+  margin-left: 20px;
+}
+
+.intro .section ul li {
+  list-style-type: disc;
+}
+
+/********************************* intro */
+
+/********************************** diff */
+
+.diff h2 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.diff .table {
+  margin: 40px auto;
+  width: 837px;
+}
+
+.diff th,
+td {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  text-align: left;
+  padding: 10px 60px 10px 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.diff th {
+  background: #f6f6f6;
+}
+
+.diff .mark {
+  color: rgb(102, 171, 228);
+}
+
+/********************************** diff */
+
+/*************************** contact-form */
+
+.contact-form {
+  background: linear-gradient(rgb(16, 119, 204), rgb(130, 185, 231));
+  margin-bottom: 30px;
+}
+
+.contact-form h2 {
+  text-align: center;
+  color: white;
+  font-size: 25px;
+  padding: 35px 0 10px 0;
+}
+
+.contact-form textarea {
+  float: left;
+  border-radius: 5px;
+  font-size: 18px;
+  margin: 20px;
+  width: 450px;
+  height: 260px;
+  border: none;
+}
+
+.contact-form label {
+  display: block;
+  float: left;
+  color: white;
+  font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 3px;
+}
+
+.contact-form input {
+  display: block;
+  float: left;
+  font-size: 18px;
+  width: 480px;
+  height: 30px;
+  border-radius: 4px;
+  padding-left: 10px;
+}
+
+.contact-form .submit-btn {
+  float: right;
+  width: 80px;
+  margin: 32px 30px 0px 0px;
+  border: rgb(23, 49, 70);
+  background: rgb(8, 72, 124);
+  color: white;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.contact-form .submit-btn:hover {
+  background: rgb(102, 171, 228);
+}
+
+/*************************** contact-form */
+
+/********************************** footer */
+
+.footer {
+  margin-bottom: 100px;
+  padding-left: 20px;
+}
+
+.footer ul {
+  float: right;
+}
+
+.footer span {
+  color: #e12d80;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/********************************** footer */
