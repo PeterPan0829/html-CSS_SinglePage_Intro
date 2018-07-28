@@ -4,3 +4,11 @@
 
 * Demo
 * https://cdn.rawgit.com/PeterPanTW/html-CSS_SinglePage_Intro/master/index.html
+
+# User Story:
+* User can see this series of course details
+* User can compare courese feature make decision
+* If U have interested in this course can submit your contact
+
+# Video Walkthrough
+![gif](file:///C:/Users/Jason/Documents/Learning_All/html-CSS_SinglePage_Intro/Demo_SinglePage_Intro.gif)
