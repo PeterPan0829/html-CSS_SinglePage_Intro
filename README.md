@@ -5,10 +5,10 @@
 * Demo
 * https://cdn.rawgit.com/PeterPanTW/html-CSS_SinglePage_Intro/master/index.html
 
-### :smile: User Story:
+### User Story :smile: :
 * User can see this series of course details
 * User can compare courese feature make decision
 * If U have interested in this course can submit your contact
 
-### :movie_camera: :movie_camera: Video Walkthrough
+### Video Walkthrough :movie_camera: :movie_camera:
 ![Alt Text](https://github.com/PeterPanTW/html-CSS_SinglePage_Intro/blob/master/Demo_SinglePage_Intro.gif)
