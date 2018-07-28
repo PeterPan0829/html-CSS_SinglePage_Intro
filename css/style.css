@@ -134,7 +134,7 @@ table {
   box-sizing: border-box;
 }
 
-/* both（清除兩邊浮動區塊）, 這裡參考了 clearfix 的方法 http://www.wibibi.com/info.php?tid=168 */
+/* both（清除兩邊浮動區塊）, 這裡參考了 clearfix 方法 http://www.wibibi.com/info.php?tid=168 */
 
 .clearfix {
   clear: both;
